@@ -1,13 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+:root{
+    font-size:1.25em;
+}
 body {
     margin:0 0 40px 0;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    /* font-family:Verdana, Geneva, Tahoma, sans-serif; */
 }
-
 #nav {
     top:0;
     position:sticky;
     text-align:center;
-    font-size:1.33rem;
+    font-size:1rem;
     padding:10px;
     background-color:#ffffc0;
     border-bottom:2px solid #000000;
@@ -27,15 +32,29 @@ body {
     border-top:2px solid #000000ff;
 }
 .title{
-    font-size:2rem;
+    font-size:1.75rem;
     padding-left:10px;
     padding-right:10px;
 }
 .background {
-    width:100%;
+    width:90%;
     height:auto;
+    margin:0 5% 0 5%;
+    border-radius:100000px;
 }
 .inside {
-    margin:50px 12.5% 0 12.5%;
+    margin:30px 12.5% 30px 12.5%;
     text-align:center;
+}
+.cursive{
+    font-family:"Dancing Script", cursive;
+}
+.large{
+    font-size:1.5rem;
+}
+.xlarge{
+    font-size:2rem;
+}
+.pad-content{
+    margin-top:75px;
 }
