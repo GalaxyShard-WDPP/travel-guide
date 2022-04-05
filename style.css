@@ -5,8 +5,12 @@
 }
 body {
     margin:0 0 40px 0;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    /* font-family:Verdana, Geneva, Tahoma, sans-serif; */
+
+    font-family:
+        -apple-system, BlinkMacSystemFont,
+        "Segoe UI",
+        "Roboto",
+        "Helvetica Neue", Arial, sans-serif;
 }
 #nav {
     top:0;
@@ -41,6 +45,12 @@ body {
     height:auto;
     margin:0 5% 0 5%;
     border-radius:100000px;
+    display:block;
+}
+.map {
+    width:100%;
+    border-radius:10px;
+    display:block;
 }
 .inside {
     margin:30px 12.5% 30px 12.5%;
