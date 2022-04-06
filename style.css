@@ -47,11 +47,11 @@ body {
     border-radius:100000px;
     display:block;
 }
-.map {
+/* .map {
     width:100%;
     border-radius:10px;
     display:block;
-}
+} */
 .inside {
     margin:30px 12.5% 30px 12.5%;
     text-align:center;
@@ -67,4 +67,32 @@ body {
 }
 .pad-content{
     margin-top:75px;
+}
+.hotels > img, .tips > img {
+    transition:border-radius 0.5s 0s;
+    border-radius:50%;
+}
+.hotels > img:hover, .tips > img:hover {
+    border-radius:10px;
+}
+#temperature{
+    font-family:'Helvetica', monospace;
+}
+hr.small{
+    width:75%;
+}
+/* Generic */
+img{
+    margin:10px auto 10px auto;
+    border-radius:10px;
+    width:75%;
+    height:auto;
+    display:block;
+}
+a{
+    text-decoration:none;
+    color:#007cff
+}
+a:hover{
+    color:#40c0ff;
 }
