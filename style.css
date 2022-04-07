@@ -20,6 +20,7 @@ body {
     padding:10px;
     background-color:#ffffc0;
     border-bottom:2px solid #000000;
+    z-index:1;
 }
 #nav > a{
     color:black;
@@ -71,6 +72,11 @@ body {
 .hotels > img, .tips > img {
     transition:border-radius 0.5s 0s;
     border-radius:50%;
+    height:300px;
+    width:auto;
+    max-width:75%;
+    object-fit:cover;
+    filter:drop-shadow(0 0 2px #000000);
 }
 .hotels > img:hover, .tips > img:hover {
     border-radius:10px;
@@ -80,6 +86,9 @@ body {
 }
 hr.small{
     width:75%;
+}
+hr.pad-bottom{
+    margin-bottom:50px;
 }
 /* Generic */
 img{
