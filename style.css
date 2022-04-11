@@ -31,6 +31,7 @@ body {
     border-top:2px solid #00000000;
     padding-top:2px;
     padding-bottom:2px;
+    
 }
 #nav > a:hover{
     border-bottom:2px solid #000000ff;
@@ -48,11 +49,6 @@ body {
     border-radius:100000px;
     display:block;
 }
-/* .map {
-    width:100%;
-    border-radius:10px;
-    display:block;
-} */
 .inside {
     margin:30px 12.5% 30px 12.5%;
     text-align:center;
